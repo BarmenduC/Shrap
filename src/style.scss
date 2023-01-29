@@ -79,3 +79,35 @@
         }
     }
 }
+
+.home{
+    background-color: #f49b9b;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .container{
+        border: 1px solid white;
+        border-radius: 10px;
+        width: 65%;
+        height: 80%;
+        display: flex;
+        overflow: hidden;
+    }
+
+    .sidebar{
+        flex : 1;
+        background-color: #da2525;
+
+        .navbar{
+            display: flex;
+            align-items: center;
+            
+        }
+    }
+
+    .chat{
+        flex : 2;
+    }
+}
